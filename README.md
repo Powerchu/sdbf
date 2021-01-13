@@ -1,6 +1,8 @@
 # SDBF v0.1
 Scheduled Deletion Batch File - Run this batch file once to add a task that delete files based on different file age.
 
+[Download Here](https://github.com/Powerchu/sdbf/releases/download/v0.1/sdbf.bat)
+
 ## What is it
 ![Batch File](https://raw.githubusercontent.com/Powerchu/sdbf/main/batch_command_prompt.png)<br>
 SDBF is a simple batch file that will be run every time a user logs on. This then checks for the managed folders and delete according to the age of files and folders. SDBF essentially takes a 22-pointer from https://pureinfotech.com/delete-files-older-than-days-windows-10/ and condense it into a .bat file.
@@ -13,8 +15,7 @@ Lazy and cheap people who does not want to use programs like CCleaner, but downl
 Also, if you use the Snipping Tool alot (Shift+Win+S), you might want to save to a temporary folder. I used to just save to the desktop, until an ungodly number of screenshots start to pile up. Now, I just save to my daily folder.
 
 ## How to use
-  0. Download by clicking the green Code button then Download As Zip.
-  1. Extract the batch file to the folder that you want to create managed folders (usually this is C:\users\xx\downloads)
+  1. [Download SDBF](https://github.com/Powerchu/sdbf/releases/download/v0.1/sdbf.bat) to the folder that you want to create managed folders (usually this is C:\users\xx\downloads)
   2. Run the batch file with admin privileges. Either press N or ignore the prompt for 5 seconds.
   3. This will do three things:<br>
     a. It will create four folders: i) Daily, ii) Weekly, iii) Monthly and iv) Bi-Annually. Files and folders inside <Daily> are removed if they are older than 2 days, and those inside <Monthly> are removed if they are older than 31 days, etc etc.<br>
