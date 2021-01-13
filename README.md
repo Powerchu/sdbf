@@ -9,6 +9,7 @@ I was primarily motivated as before this, I was too lazy to organise my download
 
 ## Who should use
 Lazy and cheap people who does not want to use programs like CCleaner, but download alot of temporary files. This is a launch-once-and-forget kinda deal.
+Also, if you use the Snipping Tool alot (Shift+Win+S), you might want to save to a temporary folder. I used to just save to the desktop, until an ungodly number of screenshots start to pile up. Now, I just save to my daily folder.
 
 ## How to use
   0. Download by clicking the green Code button then Download As Zip.
