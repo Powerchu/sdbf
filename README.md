@@ -11,6 +11,7 @@ I was primarily motivated as before this, I was lazy to organise my download fol
 Lazy and cheap people who does not want to use programs like CCleaner. This is a launch-once-and-forget kinda deal.
 
 ## How to use
+  0. Download by clicking the green <Code> button -> Download As Zip.
   1. Extract the batch file to the folder that you want to create managed folders (usually this is C:\users\xx\downloads)
   2. Run the batch file with admin privileges. Either press N or ignore the prompt for 5 seconds.
   3. This will do three things:<br>
