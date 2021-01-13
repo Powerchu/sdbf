@@ -26,3 +26,4 @@ SDBF primarily uses [forfiles.exe](https://docs.microsoft.com/en-us/windows-serv
   1. Cleaner batch code
   2. The ability for users to customise their deletion: i.e. choose how many folders to be managed, the names of these folders, names of logging text files and setting of the frequencies through the batch file itself (command prompt). Right now, users have to edit the code which is unsightly to begin with.
   3. The option to move files into recycle bin instead and to restore files of a particular age from the recycle bin.
+  4. The option to review files selected for purging, and then confirming the deletion.
