@@ -2,6 +2,7 @@
 Scheduled Deletion Batch File - Run this batch file once to add a task that delete files based on different file age.
 
 ## What is it
+![Batch File](https://raw.githubusercontent.com/Powerchu/sdbf/main/batch_command_prompt.png)<br>
 SDBF is a simple batch file that will be run every time a user logs on. This then checks for the managed folders and delete according to the age of files and folders. SDBF essentially takes a 22-pointer from https://pureinfotech.com/delete-files-older-than-days-windows-10/ and condense it into a .bat file.
 
 ## Why to use
@@ -17,8 +18,10 @@ Also, if you use the Snipping Tool alot (Shift+Win+S), you might want to save to
   2. Run the batch file with admin privileges. Either press N or ignore the prompt for 5 seconds.
   3. This will do three things:<br>
     a. It will create four folders: i) Daily, ii) Weekly, iii) Monthly and iv) Bi-Annually. Files and folders inside <Daily> are removed if they are older than 2 days, and those inside <Monthly> are removed if they are older than 31 days, etc etc.<br>
+  ![Managed Folders](https://raw.githubusercontent.com/Powerchu/sdbf/main/managed_folders.png)<br>
     b. Create two text files: deletelog.log and deletelog.err in the directory the batch file is in. You can view deletelog.log to see the files that have been deleted.<br>
-    c. Create a task <ScheduledDeletionTask> in Windows Task Scheduler, which will run this batch file each time a user logs on to the computer. This will then run the           deletion based on age.<br>
+  ![Logger](https://raw.githubusercontent.com/Powerchu/sdbf/main/logger.png)<br>
+    c. Create a task <ScheduledDeletionTask> in Windows Task Scheduler, which will run this batch file each time a user logs on to the computer. This will then run the deletion based on age.<br>
   4. That's it! Now whenever you are downloading files, choose a folder than you deem the correct duration to have. For example, if its a file you just need immediately and wont need it ever again, put into Daily. If it is something you think you might need in the next month or so, put into Monthly.
   
 ## How it works
