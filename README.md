@@ -27,6 +27,8 @@ Also, if you use the Snipping Tool alot (Shift+Win+S), you might want to save to
   
 ## How it works
 SDBF primarily uses [forfiles.exe](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/forfiles "Microsoft Docs: Forfiles") for the actual removal, and [schtasks.exe](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks "Microsoft Docs: Schtasks") for creating the windows task. This batch file does create a user environment variable and stores it in the registry. I use this to check if the task needs to be created in the first place (for first time users; I definitely need a better way to do this).
+
+### SDBF permanently removes a file with no easy retrieval. You've been warned!
   
 ## Want-list
   1. Cleaner batch code
