@@ -2,7 +2,7 @@
 Scheduled Deletion Batch File - Run this batch file once to add a task that delete files based on different file age.
 
 ## What is it
-SDBF is a simple batch file that will be run every time a user logs on. This then checks for the managed folders and delete according to the age of files and folders.
+SDBF is a simple batch file that will be run every time a user logs on. This then checks for the managed folders and delete according to the age of files and folders. SDBF essentially takes a 22-pointer from https://pureinfotech.com/delete-files-older-than-days-windows-10/ and condense it into a .bat file.
 
 ## Why to use
 I was primarily motivated as before this, I was lazy to organise my download folder, and download a huge amount of files for setting up fresh installs of windows. It was especially bad when it comes to downloading mods for video games, since they often come in compressed archive format. Which means, I always end up saving the archive, and extracting the content, and never touch the archive again. You may ask: "Why not just 'run' the archive instead of saving"? Well, sometimes, the mod installation doesn't go well and problem arises whereby an overwrite is necessary.
