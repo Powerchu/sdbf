@@ -55,7 +55,7 @@ echo.
         schtasks /Create /TR %fileName% /TN ScheduledDeletionTask /SC ONLOGON
     )
 
-    IF NOT EXIST %logName% (
+    IF NOT EXIST "%currDir%%logName%" (
           echo ==================================================
           echo         Scheduled Deletion Batch File v0.1        
           echo ==================================================
